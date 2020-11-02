@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+#container {
+  background-color: #fff;
+}
+
+#form-control {
+  background-color: #acb094;
+  width: 360px;
+  height: 520px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+#head {
+  background-color: green;
+  padding: 5px;
+  color: white;
+  border-radius: 10px 10px 0 0;
+}
+
+.input {
+  padding: 8px;
+  margin-top: 8px;
+  width: 80%;
+}
+
+form > input:first-child {
+  margin-top: 20px;
+}
+
+#gender {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#submit {
+  background-color: green;
+  font-size: 18px;
+  width: 130px;
+  border: none;
+  padding: 8px;
+  margin-top: 15px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+a p {
+  margin-top: 10px;
+}
