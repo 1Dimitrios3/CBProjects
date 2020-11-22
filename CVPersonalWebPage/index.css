@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav {
+  display: flex start;
+  align-items: center;
+  justify-content: center;
+  background-color: #8cb886;
+  padding: 20px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.nav-item {
+  display: inline;
+  font-size: 20px;
+  font-family: Verdana;
+  padding: 10px;
+  color: #eeeeee;
+  background-color: #8cb886;
+}
+
+.nav-item:hover {
+  background-color: #eee;
+  color: #8cb886;
+}
+
+h1 {
+  text-align: center;
+  color: #3e3f40;
+  font-family: Verdana;
+}
+
+.main-nav ul {
+  list-style-type: none;
+}
+
+.main-nav li {
+  display: inline;
+  padding: 10px;
+}
+
+.main-nav a {
+  color: #000;
+  text-decoration: none;
+}
+
+.profile-image {
+  text-align: center;
+}
+
+.social-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socialcard {
+  padding: 10px 20px;
+  display: flex;
+}
+
+.socialcard a {
+  color: #000;
+  text-decoration: none;
+}
+
+.socialcard a {
+  font-weight: bold;
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-image img {
+  border-radius: 50%;
+  box-shadow: 4px 4px 2px #eeeeee, 2px 2px 4px #eeeeee;
+}
+
+.text {
+  text-align: justify;
+  padding: 10px 20px;
+}
+
+#table-exp {
+  /* background-color: #eeeeee; */
+  font-family: Verdana;
+}
+
+.main-titles {
+  background-color: #ffffff;
+  font-size: 20px;
+}
+
+#table-exp ul {
+  padding: 40px 20px;
+}
+
+#table-exp p {
+  text-align: center;
+}
+
+#table-exp img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+}
+
+#table-edu {
+  font-family: Verdana;
+  background-color: #eee;
+  padding: 20px;
+  border: 1px solid #eee;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#table-edu ul,
+td {
+  padding: 40px 20px;
+}
+
+#table-edu p {
+  text-align: center;
+}
+
+.form-title {
+  text-align: center;
+  font-family: Verdana;
+}
+
+.form-space {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-control {
+  border: 1px solid #000;
+  padding: 20px;
+  background-color: #eee;
+  width: auto;
+}
+
+.form-space label {
+  display: flex;
+  font-family: Verdana;
+  padding: 10px 0px;
+  font-weight: 500;
+}
+
+.form-space input {
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+}
+
+textarea {
+  resize: none;
+}
+
+.form-space #button {
+  background-color: #8cb886;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.form-space #button:hover {
+  background-color: #61965a;
+  cursor: pointer;
+}

@@ -1,0 +1,151 @@
+body {
+  background-color: #ffffff;
+}
+
+.main-wrapper {
+  max-width: 800px;
+  height: 360px;
+  background-color: #eee;
+  border: 1px solid #fff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.wrapper1 {
+  background-color: blue;
+  height: 100%;
+  width: 50%;
+  float: left;
+  /*   border: 1px solid #fff; */
+}
+
+.wrapper2 {
+  background-color: orange;
+  height: 100%;
+  width: 49.5%;
+  float: left;
+  border: 1px solid #fff;
+}
+
+.wrapper1 section {
+  background-color: pink;
+  height: 50%;
+  /*   border: 1px solid #fff; */
+}
+
+.wrapper1 aside {
+  background-color: purple;
+  height: 50%;
+  /*   border: 1px solid #fff; */
+}
+
+.wrapper2 section {
+  background-color: #f4876e;
+  height: 100%;
+  width: 65.5%;
+  float: left;
+  border: 0.5px solid #fff;
+}
+
+.wrapper2 aside {
+  background-color: yellow;
+  height: 100%;
+  width: 34%;
+  float: left;
+}
+
+.wrapper2 h1 {
+  color: #fff;
+  text-align: center;
+  padding-top: 60%;
+  font-family: Verdana;
+}
+
+section .twobox {
+  background-color: #eee;
+  height: 100%;
+  width: 36%;
+  float: left;
+}
+
+section .singlebox {
+  background-color: #db13d1;
+  height: 100%;
+  border: 1px solid #fff;
+}
+
+.twobox .box1 {
+  background-color: #db136f;
+  height: 50%;
+  width: 100%;
+  border: 1px solid #fff;
+}
+
+.twobox .box2 {
+  background-color: #0c8747;
+  height: 50%;
+  width: 100%;
+  margin-bottom: 0px;
+  border: 1px solid #fff;
+}
+
+aside .box3 {
+  background-color: silver;
+  height: 50%;
+}
+
+aside .box4 {
+  background-color: #5d076b;
+  height: 50%;
+  margin-bottom: 0px;
+  border: 1px solid #fff;
+}
+
+.box3 .box5 {
+  background-color: #759c1b;
+  height: 100%;
+  width: 36%;
+  float: left;
+  border: 1px solid #fff;
+}
+
+.box3 .box6 {
+  background-color: #0c8747;
+  height: 100%;
+  width: 19%;
+  float: left;
+  border: 1px solid #fff;
+}
+
+.box3 .box7 {
+  background-color: aqua;
+  height: 100%;
+  width: 43.5%;
+  float: left;
+  border: 1px solid #fff;
+}
+
+.wrapper2 .box8 {
+  background-color: #efbf05;
+  height: 25%;
+  border: 1px solid #fff;
+}
+
+.wrapper2 .box9 {
+  background-color: #237dbc;
+  height: 24.5%;
+  border: 1px solid #fff;
+}
+
+.wrapper2 .box10 {
+  background-color: #6dc698;
+  height: 24.5%;
+  border: 1px solid #fff;
+}
+
+.wrapper2 .box11 {
+  background-color: red;
+  height: 24.5%;
+  border: 1px solid #fff;
+}
